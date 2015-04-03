@@ -5,56 +5,49 @@
 @import url(http://fonts.googleapis.com/css?family=Muli);
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
 @import url(metro-bootstrap.min.css);
+.overall {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  color: #000;
+  display: table;
+  font-weight: 100;
+  font-family: 'Open Sans';
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+}
+.main {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(355,355,355,0.5);
+  background-attachment: fixed;
+}
+.footer
+{
+  background-color: rgba(255,255,255,0.5);
+} 
+.contain {
+  text-align: center;
+  display: inline-block;
+}
 
-      body
-      {
-        background: url(https://www.greengrants.org/wp-content/uploads/2013/06/Kajol-Das-in-her-organic-garden.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: right;
-      }
+.title {
+  font-size: 96px;
+  margin-bottom: 40px;
+}
 
-      .overall {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100%;
-        color: #000;
-        display: table;
-        font-weight: 100;
-        font-family: 'Open Sans';
-      }
+.quote {
+  font-size: 24px;
+}
 
-      .jumbotron {
-        text-align: center;
-        display: table-cell;
-        vertical-align: middle;
-        height: 100%;
-        width: 100%;
-        background-color: rgba(355,355,355,0.5);
-        background-attachment: fixed;
-      }
-
-      .footer
-      {
-        background-color: rgba(255,255,255,0.5);
-      }
-
-      .container {
-        text-align: center;
-        display: inline-block;
-      }
-
-      .title {
-        font-size: 96px;
-        margin-bottom: 40px;
-      }
-
-      .quote {
-        font-size: 24px;
-      }
-
-      #about
-      {
-        height: 500px
-      }
+.jumbotron
+{
+  margin-bottom: 0
+}
